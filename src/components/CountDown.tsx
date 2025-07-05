@@ -7,7 +7,7 @@
 
 // const CountDown = () => {
 //   return (
-//     <Countdown className='font-bold text-5xl text-yellow-300' date={endingDate}/>
+//     <Countdown className='font-bold text-5xl text-orange-300' date={endingDate}/>
 //   )
 // }
 
@@ -42,7 +42,7 @@ const CountDown = () => {
     };
   });
   return (
-    <span className="font-bold text-5xl text-yellow-300">
+    <span className="font-bold text-5xl text-orange-300">
       {d}:{h}:{m}:{s}
     </span>
   );
